@@ -72,6 +72,7 @@ function createDivsForColors(imgArray) {
     // newDiv.classList.add('back');
     newFrontDiv.classList.add('front');
     newFrontDiv.style.backgroundImage = 'url("img/card-pattern.jpg")'
+    newFrontDiv.setAttribute('alt', 'Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/s/photos/floral-pattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' ) 
 
     // call a function handleCardClick when a div is clicked on
     newFrontDiv.addEventListener("click", handleCardClick);
